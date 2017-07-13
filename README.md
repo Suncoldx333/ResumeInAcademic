@@ -1,2 +1,6 @@
 # ResumeInAcademic
-a resum created by Hugo in academic theme
+a resume created by Hugo in academic theme
+
+## install Hugo
+    
+    brew install hugo 
