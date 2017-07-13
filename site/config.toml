@@ -1,0 +1,137 @@
+baseurl = "https://jay.com"
+copyright = "&copy; 2017 Zhaoyun Wang"
+theme = "academic"
+enableEmoji = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
+
+# Default language to use (if you setup multilingual support)
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  organization = ""
+  organization_url = ""
+  avatar = "portrait.jpg"
+  email = "wangzhaoyunx@163.com"
+  telegram = ""
+
+  # Enable Keybase in Contact section by entering your keybase.io username.
+  keybase = ""
+
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "2006-01-02"
+
+  # Enable global LaTeX math rendering?
+  #   If false, you can enable it locally on a per page basis.
+  math = false
+
+  highlight = true
+  highlight_languages = ["swift","objectivec"]
+  # highlight_style = "github"
+  # highlight_version = "9.9.0"
+
+  # Enable native social sharing buttons?
+  sharing = true
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  custom_css = ["main.css"]
+  custom_js  = []
+
+  # Publication types.
+  #   Used to categorize publications.
+  #   The index of the publication type in the list is used as its unique numerical identifier.
+  #   The numeric ID is used in a publication's frontmatter to categorize it.
+  #   The language can be edited below.
+  #   For multi-lingual sites, copy this block to each language section at the end of this file.
+  publication_types = [
+    'Uncategorized',  # 0
+    'Book',  # 1
+    'Book chapter'  # 2
+  ]
+
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "mailto:wangzhaoyunx@163.com"
+
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "//github.com/Suncoldx333"
+
+  [[languages.en.menu.main]]
+    name = "Home"
+    url = "#about"
+    weight = 1
+
+  [[languages.en.menu.main]]
+    name = "Projects"
+    url = "#projects_selected"
+    weight = 2
+
+  [[languages.en.menu.main]]
+    name = "Skills"
+    url = "#skills"
+    weight = 4
+
+  [[languages.en.menu.main]]
+    name = "Experience"
+    url = "#experience"
+    weight = 3
+
+  [[languages.en.menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 5
+
+  [[languages.zh.menu.main]]
+    name = "主页"
+    url = "#about"
+    weight = 1
+
+  [[languages.zh.menu.main]]
+    name = "项目"
+    url = "#projects_selected"
+    weight = 2
+
+  [[languages.zh.menu.main]]
+    name = "技能"
+    url = "#skills"
+    weight = 3
+
+  [[languages.zh.menu.main]]
+    name = "经历"
+    url = "#experience"
+    weight = 4
+
+  [[languages.zh.menu.main]]
+    name = "联系"
+    url = "#contact"
+    weight = 5
+
+[languages.en]
+  languageCode = "en-us"
+  title = "Resume - Zhaoyun Wang"
+  name = "Zhaoyun Wang"
+  role = "iOS Developer"
+  address = "1001-1-2,BojinShidai, Binjiang, Hangzhou, China"
+  office_hours = "10:00 - 24:00"
+
+[languages.zh]
+  languageCode = "zh"
+  title = "简历 - 王兆云"
+  name = "王 兆云"
+  role = "iOS 开发者"
+  address = "杭州市滨江区铂金时代2幢1单元1001"
+  office_hours = "10：00 - 24：00"
