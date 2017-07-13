@@ -12,7 +12,7 @@ a resume created by Hugo in academic theme
     cd ~/site/themes
     git clone https://github.com/gcushen/hugo-academic.git
 
-3.start Hugo Server,this site will show on http://localhost:1313,as the commond's log
+3.start Hugo Server,this site will show on [localhost](http://localhost:1313) , as the commond's log
 
     cd ~/site
     hugo server -w
